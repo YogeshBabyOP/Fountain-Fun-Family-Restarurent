@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICEF MENU</title>
+    <link rel="icon" type="image/png" href="./images/shanwiklogo.png">
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .menu {
+            margin-top: 30px;
+        }
+        select {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        li {
+            font-size: 18px;
+        }
+        .menu-section {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+            margin-left: 20px;
+        }
+        .menu-section ul {
+            list-style-type: none;
+        }
+        .menu-section li {
+            margin: 5px 0;
+        }
+        .whatsapp-icon {
+            width: 50px;  /* Adjust the size as needed */
+            height: 50px; /* Adjust the size as needed */
+        }
+        .whatsapp-container {
+            position: fixed; /* Fixed position to stay at the top right */
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the right */
+            z-index: 1000; /* Ensure it stays above other elements */
+        }
+        .instagram-icon {
+            width: 50px;  /* Adjust the size as needed */
+            height: 50px; /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>UNICEF MENU</h1>
+    <p class="instagram-handle" style="margin: 0;"></p>
+        <a href="https://fountainfunrestaurant.com/" target="_blank" style="text-decoration: none; color: inherit;">
+            Powered by Fountain Fun Family Restaurent
+        </a>
+    </p>
+
+ 
+    <div class="whatsapp-container">
+        <a href="https://wa.me/7675992527" target="_blank" title="message on WhatsApp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </div>
+
+    <!-- <a href="https://www.instagram.com/fountain__fun/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-icon">
+    </a> -->
+    <div class="menu">
+        <select id="day1-menu">
+            <option value="">Day 1</option>
+            <option value="day1-breakfast">Breakfast</option>
+            <option value="day1-snacks1">Snacks - 1</option>
+            <option value="day1-lunch">Lunch</option>
+            <option value="day1-snacks2">Snacks - 2</option>
+            <option value="day1-dinner">Dinner</option>
+        </select>
+
+        <select id="day2-menu">
+            <option value="">Day 2</option>
+            <option value="day2-breakfast">Breakfast</option>
+            <option value="day2-snacks1">Snacks - 1</option>
+            <option value="day2-lunch">Lunch</option>
+            <option value="day2-snacks2">Snacks - 2</option>
+            <option value="day2-dinner">Dinner</option>
+        </select>
+    </div>
+
+    <div id="day1-breakfast" class="menu-section">
+        <h2>Day 1 Breakfast</h2>
+        <ul>
+            <li>Idli</li>
+            <li>Vada</li>
+            <li>Chutney</li>
+            <li>Allam Chutney</li>
+        </ul>
+    </div>
+
+    <div id="day1-snacks1" class="menu-section">
+        <h2>Day 1 Snacks - 1</h2>
+        <ul>
+            <li>Corn Samosa</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+
+    <div id="day1-lunch" class="menu-section">
+        <h2>Day 1 Lunch</h2>
+        <ul>
+            <li>Bread Halwa</li>
+            <li>Dal</li>
+            <li>Sambar</li>
+            <li>Veg Fry</li> 
+            <li>Veg Gravy Curry</li>
+            <li>Chutney</li>
+            <li>White Rice</li>
+            <li>Chicken Dum Biryani</li>
+            <li>Curd</li>
+            <li>Raita</li>
+            <li>Katta</li>
+        </ul>
+    </div>
+
+    <div id="day1-snacks2" class="menu-section">
+        <h2>Day 1 Snacks - 2</h2>
+        <ul>
+            <li>Onion Pakoda</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+
+    <div id="day1-dinner" class="menu-section">
+        <h2>Day 1 Dinner</h2>
+        <ul>
+            <li>Pulka</li>
+            <li>Mixed Veg Curry</li>
+            <li>Dal</li>
+            <li>Jeera Rice</li>
+            <li>White Rice</li>
+            <li>Curd</li>
+        </ul>
+    </div>
+
+    <div id="day2-breakfast" class="menu-section">
+        <h2>Day 2 Breakfast</h2>
+        <ul>
+            <li>Idli</li>
+            <li>Vada</li>
+            <li>Chutney</li>
+            <li>Allam Chutney</li>
+        </ul>
+    </div>
+
+    <div id="day2-snacks1" class="menu-section">
+        <h2>Day 2 Snacks - 1</h2>
+        <ul>
+            <li>Onion Samosa</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+
+    <div id="day2-lunch" class="menu-section">
+        <h2>Day 2 Lunch</h2>
+        <ul>
+            <li>Fruit Kesari</li>
+            <li>Dal</li>
+            <li>Sambar</li>
+            <li>Veg Fry</li> 
+            <li>Veg Gravy Curry</li>
+            <li>Chutney</li>
+            <li>White Rice</li>
+            <li>Chicken Fry Biryani</li>
+            <li>Curd</li>
+            <li>Raita</li>
+            <li>Katta</li>
+        </ul>
+    </div>
+
+    <div id="day2-snacks2" class="menu-section">
+        <h2>Day 2 Snacks - 2</h2>
+        <ul>
+            <li>Onion Pakoda</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+
+    <div id="day2-dinner" class="menu-section">
+        <h2>Day 2 Dinner</h2>
+        <ul>
+            <li>Pulka</li>
+            <li>Paneer Curry</li>
+            <li>Sambar Rice</li>
+            <li>White Rice</li>
+            <li>Curd</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById('day1-menu').addEventListener('change', function() {
+            const sections = document.querySelectorAll('.menu-section');
+            sections.forEach(section => section.style.display = 'none');
+            const selected = this.value;
+            if (selected) {
+                document.getElementById(selected).style.display = 'block';
+            }
+        });
+
+        document.getElementById('day2-menu').addEventListener('change', function() {
+            const sections = document.querySelectorAll('.menu-section');
+            sections.forEach(section => section.style.display = 'none');
+            const selected = this.value;
+            if (selected) {
+                document.getElementById(selected).style.display = 'block';
+            }
+        });
+    </script>
+
+<footer style="position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; background-color: #f8f9fa; padding: 10px 0;">
+    <p class="instagram-handle" style="margin: 0;">
+        <a href="https://instagram.com/hacker.__.sheela" target="_blank" style="text-decoration: none; color: inherit;">
+            @hackerSheela💃
+        </a>
+    </p>
+</footer>   
+
+    
+
+</body>
+
+</html>
